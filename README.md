@@ -9,22 +9,16 @@ Last updated    2019-09-07: Function created
                 2019-09-20: WINE used for linux usage of test.exe 
                 2019-09-27: Improved input reading routine, merged with convert.py
 
-==========
-MODULES:
-==========
+### MODULES:
 
 pandas, numpy, matplotlib, scipy, fastdtw, tqdm
 
-==========
-USAGE:
-==========
+### USAGE:
 python3 shtfinder.py baseshot start_sequence end_sequence diagnostic_idx weights shtpath
 
 Example: python3 36612 36610 36614 6,7 1.0,0.0 "./sht"
 
-==========
-INPUTS:
-==========
+### INPUTS:
 
 baseshot (int)         -- the number of the base pulse
 start_sequence (int)   -- starting point of the range

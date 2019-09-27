@@ -11,7 +11,7 @@ pandas, numpy, matplotlib, scipy, fastdtw, tqdm
 ### USAGE:
 python3 shtfinder.py baseshot start_sequence end_sequence diagnostic_idx weights shtpath
 
-Example: python3 36612 36610 36614 6,7 1.0,0.0 "./sht"
+Example: python3 shtfinder.py 36612 36610 36614 6,7 1.0,0.0 "./sht"
 
 ### INPUTS:
 

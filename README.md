@@ -20,9 +20,9 @@ Example: python3 36612 36610 36614 6,7 1.0,0.0 "./sht"
 
 ### INPUTS:
 
-baseshot (int)         -- the number of the base pulse
-start_sequence (int)   -- starting point of the range
-end_sequence (int)     -- finishing point of the range 
-diagnostic_idx (array) -- indices of the comparable diagnostics 
-weights (array)        -- weights of the diagnostics
-shtpath (str)          -- path to the sht files folder
+* baseshot (int)         -- the number of the base pulse
+* start_sequence (int)   -- starting point of the range
+* end_sequence (int)     -- finishing point of the range 
+* diagnostic_idx (array) -- indices of the comparable diagnostics 
+* weights (array)        -- weights of the diagnostics
+* shtpath (str)          -- path to the sht files folder

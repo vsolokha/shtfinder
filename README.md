@@ -8,6 +8,8 @@ plasma discharge diagnostics time series and consecutive sorting
 
 pandas, numpy, matplotlib, scipy, fastdtw, tqdm
 
+wine for linux
+
 ### USAGE:
 python3 shtfinder.py baseshot start_sequence end_sequence diagnostic_idx weights shtpath
 

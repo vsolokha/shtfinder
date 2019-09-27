@@ -4,11 +4,6 @@ module shtfinder for search in Globus-M plasma pulses
 made for calculation the euclidian and DTW distance of the 
 plasma discharge diagnostics time series and consecutive sorting
 
-Created by V. Solokha
-Last updated    2019-09-07: Function created
-                2019-09-20: WINE used for linux usage of test.exe 
-                2019-09-27: Improved input reading routine, merged with convert.py
-
 ### MODULES:
 
 pandas, numpy, matplotlib, scipy, fastdtw, tqdm

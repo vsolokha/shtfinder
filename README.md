@@ -4,9 +4,13 @@ module shtfinder for search in Globus-M plasma pulses
 made for calculation the euclidian and DTW distance of the 
 plasma discharge diagnostics time series and consecutive sorting
 
+### CHANGES:
+* 2019-12-08 Added GUI based on Kivy library
+* 2019-12-11 Added pure Python sht file decoder written by N.Zhiltsov
+
 ### REQS:
 
-pandas, numpy, matplotlib, scipy, fastdtw, tqdm
+pandas, numpy, matplotlib, scipy, fastdtw, tqdm, kivy, shtreaper
 
 wine for linux
 

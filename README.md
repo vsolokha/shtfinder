@@ -14,10 +14,13 @@ pandas, numpy, matplotlib, scipy, fastdtw, tqdm, kivy, shtreaper
 
 wine for linux
 
-### USAGE:
-python3 shtfinder.py baseshot start_sequence end_sequence diagnostic_idx weights shtpath
+### GUI USAGE:
+python3 src/gui.py
 
-Example: python3 shtfinder.py 36612 36610 36614 6,7 1.0,0.0 "./sht"
+### CMD USAGE:
+python3 src/shtfinder.py baseshot start_sequence end_sequence diagnostic_idx weights shtpath
+
+Example: python3 src/shtfinder.py 36612 36610 36614 6,7 1.0,0.0 "./sht"
 
 ### INPUTS:
 

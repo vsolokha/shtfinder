@@ -1,2 +1,1 @@
-./data/*.SHT
-./data/*.sht
+**/data/*
